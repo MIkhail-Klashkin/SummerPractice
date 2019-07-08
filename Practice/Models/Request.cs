@@ -5,34 +5,29 @@ using System.Web;
 
 namespace Practice.Models
 {
-    public class Client
+    public class Request
     {
+        public int MkId
+        {
+            get;
+            set;
+        }
+        public int ModelId
+        {
+            get;
+            set;
+        }
         public int ClientId
         {
             get;
             set;
         }
-        public string ClientFIO
+        public int TotalCost
         {
             get;
             set;
         }
-        public int ClientMobile
-        {
-            get;
-            set;
-        }
-        public string ClientCountry
-        {
-            get;
-            set;
-        }
-        public string ClientCity
-        {
-            get;
-            set;
-        }
-        public string ClientAdress
+        public string Notes
         {
             get;
             set;
